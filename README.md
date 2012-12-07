@@ -3,7 +3,7 @@ Equinox
 
 A board game by Jason Boomer, published by Asmadi Games.
 
-http://asmadigames.com/detail_equinox.html
+http://asmadigames.com/detail_equinox.php
 
 
 Copyright 2012 Doug Orleans.
