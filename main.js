@@ -1,6 +1,5 @@
 requirejs.config({
-  baseUrl: 'lib',
-  urlArgs: 'bust=' + new Date().getTime()
+  baseUrl: 'lib'
 });
 
 require(["jquery", "jquerypp/event/drag", "jquery.mobile"], function($) {
