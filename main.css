@@ -1,42 +1,7 @@
-@import url("lib/jquery.mobile.css");
-
 .hidden {
   display: none;
 }
 
-.hex:before {
-  content: " ";
-  width: 0; height: 0;
-  border-top: 52px solid transparent;
-  border-bottom: 52px solid transparent;
-  position: absolute;
-  left: -30px;
+body {
+  background-color: #eee;
 }
-
-.hex {
-  margin-left: 30px;
-  height: 104px;
-  width: 60px;
-  position: relative;
-}
-
-.hex:after {
-  content: "";
-  height: 0;
-  position: absolute;
-  right: -30px;
-  border-top: 52px solid transparent;
-  border-bottom: 52px solid transparent;
-}
-
-.white:before { border-right: 30px solid #FFF; }
-.white        { background-color: #FFF; }
-.white:after  { border-left:  30px solid #FFF; }
-
-.gray:before  { border-right: 30px solid #AAA; }
-.gray         { background-color: #AAA; }
-.gray:after   { border-left:  30px solid #AAA; }
-
-.black:before { border-right: 30px solid #000; }
-.black        { background-color: #000; }
-.black:after  { border-left:  30px solid #000; }
