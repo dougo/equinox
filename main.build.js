@@ -12,7 +12,7 @@
 
   paths: {
     // For jquery plugins that require the module ID "jquery".
-    jquery: "lib/require-jquery"
+    jquery: "lib/zepto"
   },
 
   modules: [

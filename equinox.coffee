@@ -1,4 +1,4 @@
-define ['jquery', 'lib/lodash', 'lib/kinetic'], ($, _) ->
+define ['lib/zepto', 'lib/lodash', 'lib/kinetic'], ($, _, Kinetic) ->
   start: ->
     width = document.documentElement.offsetWidth
     height = document.documentElement.clientHeight
